@@ -1,0 +1,11 @@
+CREATE INDEX Loans_BorrowerID ON Loans (BorrowerID);
+CREATE INDEX Loans_BookID ON Loans (BookID);
+CREATE INDEX Loans_DateBorrowed ON Loans (DateBorrowed);
+CREATE INDEX Loans_DueDate ON Loans (DueDate);
+CREATE INDEX Loans_DateReturned ON Loans (DateReturned);
+CREATE INDEX Loans_BorrowerID_DateReturned ON Loans (BorrowerID, DateReturned);
+CREATE INDEX Books_Genre ON Books (Genre);
+CREATE INDEX Books_Author ON Books (Author);
+CREATE INDEX Borrowers_LastName_FirstName ON Borrowers (LastName, FirstName);
+CREATE INDEX Borrowers_DateOfBirth ON Borrowers (DateOfBirth);
+CREATE INDEX AuditLog_BookID ON AuditLog (BookID);
