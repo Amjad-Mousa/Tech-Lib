@@ -1,5 +1,7 @@
 
 
+
+
 CREATE INDEX Loans_BorrowerID ON Loans (BorrowerID);
 CREATE INDEX Loans_BookID ON Loans (BookID);
 CREATE INDEX Loans_DateBorrowed ON Loans (DateBorrowed);
