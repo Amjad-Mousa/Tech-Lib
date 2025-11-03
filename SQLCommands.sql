@@ -207,6 +207,7 @@ BEGIN
 END
 
 
+
 6-CREATE FUNCTION fn_CalculateOverdueFees
 (
     @LoanID INT
